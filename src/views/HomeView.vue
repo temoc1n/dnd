@@ -122,6 +122,15 @@ export default {
           "Skills": ["Arcana", "History", "Insight", "Investigation", "Medicine", "Religion"],
           "img": "wizard.jpg"
         }},
+        {"Archer": {
+          "Description": "A master marksman who excels at precision, agility, and battlefield control from a distance",
+          "Primary Ability": "Dexterity",
+          "Scales": ["Dexterity", "Wisdom"],
+          "Armor": "Light",
+          "Weapons": ["Shortbows", "Longbows", "Light Crossbows", "Daggers", "Shortswords"],
+          "Skills": ["Perception", "Acrobatics", "Stealth", "Survival", "Nature", "Athletics"],
+          "img": "archer.jpg"
+        }},
         {"Ronin": {
           "Description": "A masterless samurai, wandering the land in search of purpose",
           "Primary Ability": "Strength and Dexterity",
@@ -134,7 +143,7 @@ export default {
         {"Shaman": {
           "Description": "A spiritual leader who channels the power of nature and ancestors",
           "Primary Ability": "Wisdom",
-          "Scales": ["Wisdom", "Charisma"],
+          "Scales": ["Wisdom", "Charisma", "Strenght"],
           "Armor": ["Light Armor", "Medium Armor", "Shields"],
           "Weapons": ["Simple Weapons", "Martial Weapons"],
           "Skills": ["Animal Handling", "Insight", "Medicine", "Nature", "Perception", "Survival"],
